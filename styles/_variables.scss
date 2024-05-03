@@ -1,0 +1,51 @@
+// * ----
+// * FONT
+// * ----
+
+@font-face {
+  font-family: "barlowMedium";
+  src: url(../assets/fonts/barlow/Barlow-Medium.ttf);
+}
+@font-face {
+  font-family: "barlowSemiBold";
+  src: url(../assets/fonts/barlow/Barlow-SemiBold.ttf);
+}
+
+$mediumFont: "barlowMedium";
+$boldFont: "barlowSemiBold";
+
+// ------------------------------------------------------
+
+// * ------
+// * COLORS
+// * ------
+
+// ? PRIMARY
+
+$ModerateViolet: #733fc8;
+$VeryDarkGrayishBlue: #48556a;
+$VeryDarkBlackishBlue: #19202d;
+$White: #fcfcfc;
+
+// ? NEUTRAL
+
+$LightGray: #cfcfcf;
+$LightGrayishBlue: #ecf2f8;
+
+// ------------------------------------------------------
+
+// * ------
+// * MIXINS
+// * ------
+
+@mixin sizeCardMobile {
+  width: 327px;
+  min-height: 222px;
+  max-height: 444px;
+}
+
+@mixin wrapCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
