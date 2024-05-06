@@ -4,33 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="shortcut icon"
       href="./assets/images/favicon-32x32.png"
       type="image/x-icon"
     />
-
-    <title>Frontend Mentor | Testimonials Grid</title>
+    <title>Frontend Mentor | Testimonials grid section</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
   <body>
-    <section class="testimonials">
-      <div class="testimonials__testimonial" id="dan">
-        <div class="testimonials__testimonial__user">
-          <div class="testimonials__testimonial__user__picture">
-            <img src="./assets/images/image-daniel.jpg" alt="user picture" />
+    <div class="cards">
+      <div class="card" id="danielClifford">
+        <div class="user">
+          <div class="avatar">
+            <img src="./assets/images/image-daniel.jpg" alt="user avatar" />
           </div>
-          <div class="testimonials__testimonial__user__text">
-            <h4>Daniel Clifford</h4>
-            <span>Verified Graduate</span>
+          <div class="infos">
+            <p class="name">Daniel Clifford</p>
+            <p class="skills">Verified Graduate</p>
           </div>
         </div>
-        <div class="testimonials__testimonial__description">
-          <h2>
+        <div class="description">
+          <p class="important">
             I received a job offer mid-course, and the subjects I learned were
             current, if not more so, in the company I joined. I honestly feel I
             got every penny’s worth.
-          </h2>
-          <p>
+          </p>
+          <p class="text">
             “ I was an EMT for many years before I joined the bootcamp. I’ve
             been looking to make a transition and have heard some people who had
             an amazing experience here. I signed up for the free intro course
@@ -41,60 +41,62 @@
           </p>
         </div>
       </div>
-      <div class="testimonials__testimonial" id="jonat">
-        <div class="testimonials__testimonial__user">
-          <div class="testimonials__testimonial__user__picture">
-            <img src="./assets/images/image-jonathan.jpg" alt="user picture" />
+      <div class="card" id="jonathanWalters">
+        <div class="user">
+          <div class="avatar">
+            <img src="./assets/images/image-jonathan.jpg" alt="user avatar" />
           </div>
-          <div class="testimonials__testimonial__user__text">
-            <h4>Jonathan Walters</h4>
-            <span>Verified Graduate</span>
+          <div class="infos">
+            <p class="name">Jonathan Walters</p>
+            <p class="skills">Verified Graduate</p>
           </div>
         </div>
-        <div class="testimonials__testimonial__description">
-          <h2>The team was very supportive and kept me motivated</h2>
-          <p>
+        <div class="description">
+          <p class="important">
+            The team was very supportive and kept me motivated
+          </p>
+          <p class="text">
             “ I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
             best investments I’ve made in myself. ”
           </p>
         </div>
       </div>
-      <div class="testimonials__testimonial" id="jeane">
-        <div class="testimonials__testimonial__user">
-          <div class="testimonials__testimonial__user__picture">
-            <img src="./assets/images/image-jeanette.jpg" alt="user picture" />
+      <div class="card" id="jeanetteHarmon">
+        <div class="user">
+          <div class="avatar">
+            <img src="./assets/images/image-jeanette.jpg" alt="user avatar" />
           </div>
-          <div class="testimonials__testimonial__user__text">
-            <h4>Jeanette Harmon</h4>
-            <span>Verified Graduate</span>
+          <div class="infos">
+            <p class="name">Jeanette Harmon</p>
+            <p class="skills">Verified Graduate</p>
           </div>
         </div>
-        <div class="testimonials__testimonial__description">
-          <h2>An overall wonderful and rewarding experience</h2>
-          <p>
+        <div class="description">
+          <p class="important">An overall wonderful and rewarding experience</p>
+          <p class="text">
             “ Thank you for the wonderful experience! I now have a job I really
             enjoy, and make a good living while doing something I love. ”
           </p>
         </div>
       </div>
-      <div class="testimonials__testimonial" id="pat">
-        <div class="testimonials__testimonial__user">
-          <div class="testimonials__testimonial__user__picture">
-            <img src="./assets/images/image-patrick.jpg" alt="user picture" />
+      <div class="card" id="patrickAbrams">
+        <div class="user">
+          <div class="avatar">
+            <img src="./assets/images/image-patrick.jpg" alt="user avatar" />
           </div>
-          <div class="testimonials__testimonial__user__text">
-            <h4>Patrick Abrams</h4>
-            <span>Verified Graduate</span>
+          <div class="infos">
+            <p class="name">Patrick Abrams</p>
+            <p class="skills">Verified Graduate</p>
           </div>
         </div>
-        <div class="testimonials__testimonial__description">
-          <h2>
+        <div class="description">
+          <p class="important">
             Awesome teaching support from TAs who did the bootcamp themselves.
             Getting guidance from them and learning from their experiences was
             easy.
-          </h2>
-          <p>
+          </p>
+          <p class="text">
             “ The staff seem genuinely concerned about my progress which I find
             really refreshing. The program gave me the confidence necessary to
             be able to go out in the world and present myself as a capable
@@ -104,19 +106,21 @@
           </p>
         </div>
       </div>
-      <div class="testimonials__testimonial" id="kira">
-        <div class="testimonials__testimonial__user">
-          <div class="testimonials__testimonial__user__picture">
-            <img src="./assets/images/image-kira.jpg" alt="user picture" />
+      <div class="card" id="kiraWhittle">
+        <div class="user">
+          <div class="avatar">
+            <img src="./assets/images/image-kira.jpg" alt="user avatar" />
           </div>
-          <div class="testimonials__testimonial__user__text">
-            <h4>Kira Whittle</h4>
-            <span>Verified Graduate</span>
+          <div class="infos">
+            <p class="name">Kira Whittle</p>
+            <p class="skills">Verified Graduate</p>
           </div>
         </div>
-        <div class="testimonials__testimonial__description">
-          <h2>Such a life-changing experience. Highly recommended!</h2>
-          <p>
+        <div class="description">
+          <p class="important">
+            Such a life-changing experience. Highly recommended!
+          </p>
+          <p class="text">
             “ Before joining the bootcamp, I’ve never written a line of code. I
             needed some structure from professionals who can help me learn
             programming step by step. I was encouraged to enroll by a former
@@ -132,13 +136,12 @@
           </p>
         </div>
       </div>
-    </section>
-
+    </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Vidal Romain</a>.
     </div>
   </body>
 </html>
